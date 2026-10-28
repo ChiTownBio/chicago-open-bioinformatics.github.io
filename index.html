@@ -14,90 +14,64 @@
   <header class="hero">
     <div class="hero__content">
       <p class="eyebrow">ChiTownBio community meetup</p>
-      <h1>Chicago Open Bioinformatics</h1>
+      <h1 class="hero__title">
+        <img
+          class="hero__logo"
+          src="assets/COB-corn-icon.jpg"
+          alt="Corn cob wrapped in a DNA helix"
+        >
+        <span class="hero__title-text">Chicago Open Bioinformatics</span>
+      </h1>
       <p class="hero__lead">
-        A welcoming home for open-source bioinformatics projects, community lab collaboration,
-        and hands-on learning in Chicago.
+        A Chicago meetup where makers, scientists, developers, and newcomers build open-source
+        bioinformatics tools together. We are part of
+        <a href="https://chitownbio.org/">ChiTownBio</a> and share the open-science mission of
+        the <a href="https://www.open-bio.org/">Open Bioinformatics Foundation</a>.
       </p>
-      <div class="hero__actions">
-        <a class="button button--primary" href="#projects">Explore projects</a>
-        <a class="button button--secondary" href="#get-involved">Get involved</a>
-      </div>
     </div>
   </header>
 
   <main>
-    <section class="section section--intro">
+    <section class="section section--accent" id="get-involved">
       <div class="section__heading">
-        <p class="eyebrow">About the group</p>
-        <h2>Build, share, and learn in the open</h2>
+        <p class="eyebrow">Get involved</p>
+        <h2>Bring your project, question, or prototype</h2>
       </div>
-      <p class="section__copy">
-        Chicago Open Bioinformatics brings together makers, scientists, developers, and curious
-        newcomers to build reusable tools for community biology. This GitHub Pages site highlights
-        active project spaces and makes it easy to discover what the group is working on.
-      </p>
-      <p class="section__copy">
-        We are proud to be part of the broader <a href="https://chitownbio.org/">ChiTownBio</a>
-        community and to champion the open-science mission of the
-        <a href="https://www.open-bio.org/">Open Bioinformatics Foundation</a>. Explore both
-        organizations to find events, collaborators, and open bioinformatics work happening beyond
-        this site.
-      </p>
-    </section>
-
-    <section class="section" id="community-partners">
-      <div class="section__heading">
-        <p class="eyebrow">Community partners</p>
-        <h2>Connect with the wider open bio community</h2>
-      </div>
-      <div class="partner-grid">
+      <div class="hero__actions">
         <a
-          class="partner-card"
-          href="https://chitownbio.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Visit ChiTownBio to discover Chicago community biology events and collaborators; opens in a new tab"
+          class="button button--primary"
+          href="https://groups.google.com/g/chicago-open-bioinformatics"
         >
-          <div class="partner-card__media">
-            <img
-              class="partner-card__logo"
-              src="assets/partners/chitownbio.svg"
-              alt=""
-            >
-          </div>
-          <div class="partner-card__content">
-            <h3>ChiTownBio</h3>
-            <p>
-              Discover Chicago-area community biology events, meetups, and collaborators through the
-              broader ChiTownBio network.
-            </p>
-            <span class="partner-card__cta">Visit ChiTownBio (opens in a new tab) →</span>
-          </div>
+          Join the COB email group
         </a>
         <a
-          class="partner-card"
-          href="https://www.open-bio.org/"
+          class="button button--discord"
+          href="https://discord.gg/bBewk8e79n"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Visit the Open Bioinformatics Foundation to explore open bioinformatics programs and projects; opens in a new tab"
         >
-          <div class="partner-card__media">
-            <img
-              class="partner-card__logo"
-              src="assets/partners/open-bioinformatics-foundation.svg"
-              alt=""
-            >
-          </div>
-          <div class="partner-card__content">
-            <h3>Open Bioinformatics Foundation</h3>
-            <p>
-              Explore the global community supporting open bioinformatics software, events, and
-              collaborative open-science projects.
-            </p>
-            <span class="partner-card__cta">Visit OBF (opens in a new tab) →</span>
-          </div>
+          Join the ChiTownBio Discord
         </a>
+        <a
+          class="button button--meetup"
+          href="https://www.meetup.com/chitownbio/events/"
+        >
+          Register for the next meetup
+        </a>
+      </div>
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>Show your work</h3>
+          <p>Add new projects here to highlight tools, datasets, experiments, and tutorials.</p>
+        </div>
+        <div class="info-card">
+          <h3>Find collaborators</h3>
+          <p>Use the project list to connect with people interested in analysis, software, and open science.</p>
+        </div>
+        <div class="info-card">
+          <h3>Keep it open source</h3>
+          <p>Promote transparent, remixable work that helps the broader ChiTownBio community learn together.</p>
+        </div>
       </div>
     </section>
 
@@ -156,38 +130,58 @@
       </p>
     </section>
 
-    <section class="section section--accent" id="get-involved">
+    <section class="section" id="community-partners">
       <div class="section__heading">
-        <p class="eyebrow">Get involved</p>
-        <h2>Bring your project, question, or prototype</h2>
+        <p class="eyebrow">Community partners</p>
+        <h2>Connect with the wider open bio community</h2>
       </div>
-      <div class="hero__actions">
+      <div class="partner-grid">
         <a
-          class="button button--primary"
-          href="https://groups.google.com/g/chicago-open-bioinformatics"
+          class="partner-card"
+          href="https://chitownbio.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit ChiTownBio to discover Chicago community biology events and collaborators; opens in a new tab"
         >
-          Join the email group
+          <div class="partner-card__media">
+            <img
+              class="partner-card__logo"
+              src="assets/partners/chitownbio.svg"
+              alt=""
+            >
+          </div>
+          <div class="partner-card__content">
+            <h3>ChiTownBio</h3>
+            <p>
+              Discover Chicago-area community biology events, meetups, and collaborators through the
+              broader ChiTownBio network.
+            </p>
+            <span class="partner-card__cta">Visit ChiTownBio (opens in a new tab) →</span>
+          </div>
         </a>
         <a
-          class="button button--secondary"
-          href="https://www.meetup.com/chitownbio/events/"
+          class="partner-card"
+          href="https://www.open-bio.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit the Open Bioinformatics Foundation to explore open bioinformatics programs and projects; opens in a new tab"
         >
-          Register for the next meetup
+          <div class="partner-card__media">
+            <img
+              class="partner-card__logo"
+              src="assets/partners/open-bioinformatics-foundation.svg"
+              alt=""
+            >
+          </div>
+          <div class="partner-card__content">
+            <h3>Open Bioinformatics Foundation</h3>
+            <p>
+              Explore the global community supporting open bioinformatics software, events, and
+              collaborative open-science projects.
+            </p>
+            <span class="partner-card__cta">Visit OBF (opens in a new tab) →</span>
+          </div>
         </a>
-      </div>
-      <div class="info-grid">
-        <div class="info-card">
-          <h3>Show your work</h3>
-          <p>Add new projects here to highlight tools, datasets, experiments, and tutorials.</p>
-        </div>
-        <div class="info-card">
-          <h3>Find collaborators</h3>
-          <p>Use the project list to connect with people interested in analysis, software, and open science.</p>
-        </div>
-        <div class="info-card">
-          <h3>Keep it open</h3>
-          <p>Promote transparent, remixable work that helps the broader ChiTownBio community learn together.</p>
-        </div>
       </div>
     </section>
   </main>

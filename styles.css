@@ -44,7 +44,7 @@ a {
 }
 
 .hero__content {
-  padding: 4rem 0;
+  padding: 4rem 0 0;
 }
 
 .hero h1,
@@ -60,6 +60,23 @@ a {
   line-height: 1.05;
 }
 
+.hero__title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hero__logo {
+  flex: 0 0 auto;
+  width: clamp(5rem, 9vw, 7rem);
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+.hero__title-text {
+  flex: 1 1 auto;
+}
+
 .hero__lead,
 .section__copy,
 .search__summary,
@@ -69,7 +86,6 @@ a {
 }
 
 .hero__lead {
-  max-width: 44rem;
   font-size: 1.125rem;
 }
 
@@ -116,12 +132,28 @@ a {
   background: rgba(255, 255, 255, 0.7);
 }
 
-.section {
-  display: block;
+.button--discord {
+  background: #6f42c1;
+  color: #ffffff;
 }
 
-.section--intro {
-  padding-top: 0;
+.button--discord:hover,
+.button--discord:focus-visible {
+  background: #59339d;
+}
+
+.button--meetup {
+  background: #d63384;
+  color: #ffffff;
+}
+
+.button--meetup:hover,
+.button--meetup:focus-visible {
+  background: #b02a6b;
+}
+
+.section {
+  display: block;
 }
 
 .section--accent {
@@ -316,6 +348,16 @@ a {
   }
 
   .hero__content {
-    padding: 2rem 0;
+    padding: 2rem 0 0;
   }
+
+  .hero h1.hero__title {
+    gap: 0.5rem;
+    font-size: clamp(1.75rem, 8vw, 2.5rem);
+  }
+
+  .hero__logo {
+    width: clamp(3.25rem, 12vw, 4.5rem);
+  }
+
 }
